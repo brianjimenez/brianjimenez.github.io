@@ -1,9 +1,7 @@
-# Brian' Sandbox
+# Reading
 
-## Reading
+## 2018
 
-### 2018
-
-#### 07
+### 07
 
 * [Build your own Lisp](http://www.buildyourownlisp.com)
