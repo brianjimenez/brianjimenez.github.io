@@ -13,4 +13,6 @@
 * [How Silicon Valley fuels an informal caste system](https://www.wired.com/story/how-silicon-valley-fuels-an-informal-caste-system/)
 * [A multi-core Python HTTP server with Cython](https://www.nexedi.com/NXD-Blog.Multicore.Python.HTTP.Server)
 * [Copying mutable objects in Python](http://www.thetaranights.com/copying-mutable-objects-in-python/)
-
+* [Dissolving the Fermi Paradox](https://arxiv.org/pdf/1806.02404.pdf)
+* [Why the UK has so many words for bread](http://www.bbc.com/travel/story/20180717-why-the-uk-has-so-many-words-for-bread)
+* [Improving Protein Fold Recognition by Deep Learning Networks](https://www.nature.com/articles/srep17573)
