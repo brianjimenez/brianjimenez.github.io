@@ -23,3 +23,6 @@
 * [VIMS images from Titan](https://photojournal.jpl.nasa.gov/figures/PIA21923_fig1.jpg)
 * [First BelugaXL maiden flight](https://www.airbus.com/newsroom/press-releases/en/2018/07/first-belugaxl-successfully-completes-maiden-flight.html)
 * [The return of the super-elite](https://jacobinmag.com/2018/07/income-inequality-super-rich-economic-policy-institute/)
+* [Getting started with Quantum Computing in Python](http://dataespresso.com/en/2018/07/22/Tutorial-Generating-random-numbers-with-a-quantum-computer-Python/)
+* [Evolving simple programs for playing Atari games](Evolving simple programs for playing Atari games)
+* [La moda de la leche cruda lo tiene todo: intereses empresariales, leyendas urbanas y un enorme problema de salud](https://www.xataka.com/medicina-y-salud/fiebre-leche-cruda-mala-solucion-para-diagnostico-equivocado-que-puede-causar-enorme-problema-salud)
