@@ -26,3 +26,7 @@
 * [Getting started with Quantum Computing in Python](http://dataespresso.com/en/2018/07/22/Tutorial-Generating-random-numbers-with-a-quantum-computer-Python/)
 * [Evolving simple programs for playing Atari games](Evolving simple programs for playing Atari games)
 * [La moda de la leche cruda lo tiene todo: intereses empresariales, leyendas urbanas y un enorme problema de salud](https://www.xataka.com/medicina-y-salud/fiebre-leche-cruda-mala-solucion-para-diagnostico-equivocado-que-puede-causar-enorme-problema-salud)
+* [ASCII-art version of Doom](https://dario-zubovic.itch.io/1337-doom)
+* [Xv6, a simple Unix-like teaching operating system](https://pdos.csail.mit.edu/6.828/2017/xv6.html)
+* [Why some PhDs are quitting academia for unconventional jobs](https://www.cbc.ca/radio/thesundayedition/the-sunday-edition-april-8-2018-1.4604763/from-professor-in-waiting-to-florist-why-some-phds-are-quitting-academia-for-unconventional-jobs-1.4604766)
+
