@@ -37,4 +37,6 @@
 * [Why you should avoid shooting at small apertures like F/18 to F/40](https://digital-photography-school.com/why-avoid-shooting-small-apertures-like-f18-f40/)
 * [Documenting Python code: a complete guide](https://realpython.com/documenting-python-code/)
 * [La "Spanish Enigma", su aportación clave al descifrado final de Enigma y el rapapolvo de Bletchley Park](http://www.elladodelmal.com/2018/07/la-spanish-enigma-su-aportacion-clave.html)
+* [Iran's Wolf wall, second-longest in the world, is still shrounded in mistery](http://blogs.discovermagazine.com/crux/2018/07/27/gorgan-wall-iran-second-longest/)
+* [How Japan's visionaries saw the future](http://www.bbc.com/culture/story/20180725-how-japans-visionaries-saw-the-future)
 
