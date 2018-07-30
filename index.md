@@ -29,4 +29,12 @@
 * [ASCII-art version of Doom](https://dario-zubovic.itch.io/1337-doom)
 * [Xv6, a simple Unix-like teaching operating system](https://pdos.csail.mit.edu/6.828/2017/xv6.html)
 * [Why some PhDs are quitting academia for unconventional jobs](https://www.cbc.ca/radio/thesundayedition/the-sunday-edition-april-8-2018-1.4604763/from-professor-in-waiting-to-florist-why-some-phds-are-quitting-academia-for-unconventional-jobs-1.4604766)
+* [The physics of infinity](https://www.nature.com/articles/s41567-018-0238-1)
+* [Our use of the Haskell and Elm programming languages](https://www.sanityinc.com/articles/why-we-use-haskell-and-elm/)
+* [Pointers are complicated, or: what's in a byte?](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html)
+* [Evidence for modified gravity is now evidence against it](http://backreaction.blogspot.com/2018/07/evidence-for-modified-gravity-is-now.html)
+* [Big tech warns of 'Japan's millennium bug' ahed of Akihito's abdication](https://www.theguardian.com/technology/2018/jul/25/big-tech-warns-japan-millennium-bug-y2k-emperor-akihito-abdication)
+* [Why you should avoid shooting at small apertures like F/18 to F/40](https://digital-photography-school.com/why-avoid-shooting-small-apertures-like-f18-f40/)
+* [Documenting Python code: a complete guide](https://realpython.com/documenting-python-code/)
+* [La "Spanish Enigma", su aportación clave al descifrado final de Enigma y el rapapolvo de Bletchley Park](http://www.elladodelmal.com/2018/07/la-spanish-enigma-su-aportacion-clave.html)
 
