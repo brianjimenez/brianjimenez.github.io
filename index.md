@@ -39,4 +39,6 @@
 * [La "Spanish Enigma", su aportación clave al descifrado final de Enigma y el rapapolvo de Bletchley Park](http://www.elladodelmal.com/2018/07/la-spanish-enigma-su-aportacion-clave.html)
 * [Iran's Wolf wall, second-longest in the world, is still shrounded in mistery](http://blogs.discovermagazine.com/crux/2018/07/27/gorgan-wall-iran-second-longest/)
 * [How Japan's visionaries saw the future](http://www.bbc.com/culture/story/20180725-how-japans-visionaries-saw-the-future)
+* [Learn you a Haskell](http://learnyouahaskell.com/chapters)
+* [Royalty free music](https://icons8.com/music/)
 
