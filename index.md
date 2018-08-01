@@ -2,6 +2,14 @@
 
 ## 2018
 
+### 08
+
+* [Bootable CD + retro game in a tweet](https://www.quaxio.com/bootable_cd_retro_game_tweet/)
+* [Dell XPS 13 makes for a great Linux laptop](https://www.phoronix.com/scan.php?page=article&item=dell-xps13-9370&num=1)
+* [Thermodynamics of stochastic Turing machines](https://arxiv.org/abs/1506.00894)
+* [All macOS and iOS wallpapers](https://www.reddit.com/r/iphone/comments/90w3cl/archive_with_all_mac_and_ios_wallpapers/)
+
+
 ### 07
 
 * [Build your own Lisp](http://www.buildyourownlisp.com)
