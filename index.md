@@ -8,6 +8,11 @@
 * [Dell XPS 13 makes for a great Linux laptop](https://www.phoronix.com/scan.php?page=article&item=dell-xps13-9370&num=1)
 * [Thermodynamics of stochastic Turing machines](https://arxiv.org/abs/1506.00894)
 * [All macOS and iOS wallpapers](https://www.reddit.com/r/iphone/comments/90w3cl/archive_with_all_mac_and_ios_wallpapers/)
+* [Get your startup started](https://eu.udacity.com/course/get-your-startup-started--ud806)
+* [A map of wireless passwords from airports and lounges](https://foxnomad.com/2016/04/26/map-wireless-passwords-airports-lounges-around-world-updated-regularly/)
+* [PIN number analysis](http://www.datagenetics.com/blog/september32012/)
+* [Your friendly guide to colors in data visualization](https://blog.datawrapper.de/colorguide/)
+
 
 
 ### 07
