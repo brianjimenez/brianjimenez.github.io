@@ -12,7 +12,8 @@
 * [A map of wireless passwords from airports and lounges](https://foxnomad.com/2016/04/26/map-wireless-passwords-airports-lounges-around-world-updated-regularly/)
 * [PIN number analysis](http://www.datagenetics.com/blog/september32012/)
 * [Your friendly guide to colors in data visualization](https://blog.datawrapper.de/colorguide/)
-
+* [A neural network in 11 lines of Python](https://iamtrask.github.io/2015/07/12/basic-python-network/)
+* [Generating random points in a sphere](https://karthikkaranth.me/blog/generating-random-points-in-a-sphere/)
 
 
 ### 07
