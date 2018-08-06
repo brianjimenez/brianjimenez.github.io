@@ -14,6 +14,9 @@
 * [Your friendly guide to colors in data visualization](https://blog.datawrapper.de/colorguide/)
 * [A neural network in 11 lines of Python](https://iamtrask.github.io/2015/07/12/basic-python-network/)
 * [Generating random points in a sphere](https://karthikkaranth.me/blog/generating-random-points-in-a-sphere/)
+* [Unit testing anti-patterns: Structural Inspection](https://enterprisecraftsmanship.com/2016/07/21/unit-testing-anti-patterns-structural-inspection/)
+* [Building a Language VM with Rust](https://blog.subnetzero.io/post/building-language-vm-part-00/)
+* [Honk Kong people sleeping in McDonald's](https://www.scmp.com/news/hong-kong/community/article/2158365/number-people-sleeping-hong-kong-mcdonalds-branches)
 
 
 ### 07
