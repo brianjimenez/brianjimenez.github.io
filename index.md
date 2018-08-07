@@ -17,6 +17,8 @@
 * [Unit testing anti-patterns: Structural Inspection](https://enterprisecraftsmanship.com/2016/07/21/unit-testing-anti-patterns-structural-inspection/)
 * [Building a Language VM with Rust](https://blog.subnetzero.io/post/building-language-vm-part-00/)
 * [Honk Kong people sleeping in McDonald's](https://www.scmp.com/news/hong-kong/community/article/2158365/number-people-sleeping-hong-kong-mcdonalds-branches)
+* [Plan to replicate 50 high-impact cancer papers shrinks to just 18](http://www.sciencemag.org/news/2018/07/plan-replicate-50-high-impact-cancer-papers-shrinks-just-18)
+* [Scutoids are a geometrical solution to three-dimensional packing of epithelia](https://www.nature.com/articles/s41467-018-05376-1)
 
 
 ### 07
