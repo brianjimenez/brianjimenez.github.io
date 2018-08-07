@@ -19,6 +19,16 @@
 * [Honk Kong people sleeping in McDonald's](https://www.scmp.com/news/hong-kong/community/article/2158365/number-people-sleeping-hong-kong-mcdonalds-branches)
 * [Plan to replicate 50 high-impact cancer papers shrinks to just 18](http://www.sciencemag.org/news/2018/07/plan-replicate-50-high-impact-cancer-papers-shrinks-just-18)
 * [Scutoids are a geometrical solution to three-dimensional packing of epithelia](https://www.nature.com/articles/s41467-018-05376-1)
+* [Table of disruptive technologies](https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/enterprise-office/public/Table-of-Disruptive-Technologies.pdf)
+* [Energy saved, sleep lost](https://medium.com/@caseorganic/energy-saved-sleep-lost-the-unintended-consequences-of-led-lighting-c0909d4872d0)
+* [Could we dredge the Netherlands without fossil fuels?](http://www.lowtechmagazine.com/2018/08/could-we-dredge-the-netherlands-without-fossil-fuels.html)
+* [How I slashed a SQL query runtime from 380 hours to 12 with two Unix commands](https://www.spinellis.gr/blog/20180805/)
+* [DORA: Implementing a JIT-compiler with Rust](https://dinfuehr.github.io/blog/dora-implementing-a-jit-compiler-with-rust/)
+* [Why you need a network-wide ad-blocker](https://blog.cryptoaustralia.org.au/2018/08/06/why-you-need-network-wide-ad-blocker-pi-hole/)
+* [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole)
+* [Where Vim came from](https://twobithistory.org/2018/08/05/where-vim-came-from.html)
+* [Iterative methods done right](http://lostella.github.io/blog/2018/07/25/iterative-methods-done-right)
+* [Of more than academic interest - untangling spaghetti code](https://www.economist.com/science-and-technology/2016/03/23/of-more-than-academic-interest)
 
 
 ### 07
