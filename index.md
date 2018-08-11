@@ -29,6 +29,10 @@
 * [Where Vim came from](https://twobithistory.org/2018/08/05/where-vim-came-from.html)
 * [Iterative methods done right](http://lostella.github.io/blog/2018/07/25/iterative-methods-done-right)
 * [Of more than academic interest - untangling spaghetti code](https://www.economist.com/science-and-technology/2016/03/23/of-more-than-academic-interest)
+* [CPython vs PyPy memory usage](https://dev.nextthought.com/blog/2018/08/cpython-vs-pypy-memory-usage.html)
+* [xkcd: voting software](https://xkcd.com/2030/)
+* [Quaternion from vectors](http://lolengine.net/blog/2013/09/18/beautiful-maths-quaternion-from-vectors)
+
 
 
 ### 07
