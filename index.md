@@ -32,6 +32,8 @@
 * [CPython vs PyPy memory usage](https://dev.nextthought.com/blog/2018/08/cpython-vs-pypy-memory-usage.html)
 * [xkcd: voting software](https://xkcd.com/2030/)
 * [Quaternion from vectors](http://lolengine.net/blog/2013/09/18/beautiful-maths-quaternion-from-vectors)
+* [Speed up your Python using Rust](https://github.com/rochacbruno/rust-python-example)
+* [The Rust programming language 2018 edition](https://doc.rust-lang.org/book/2018-edition/)
 
 
 
