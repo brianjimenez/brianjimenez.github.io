@@ -34,7 +34,10 @@
 * [Quaternion from vectors](http://lolengine.net/blog/2013/09/18/beautiful-maths-quaternion-from-vectors)
 * [Speed up your Python using Rust](https://github.com/rochacbruno/rust-python-example)
 * [The Rust programming language 2018 edition](https://doc.rust-lang.org/book/2018-edition/)
-
+* [Passport Rank](https://www.passportindex.org/byRank.php)
+* [Angry Linus](https://lore.kernel.org/lkml/20180813214328.GA15137@beast/T/#u)
+* [First impressions on Rust](http://luthaf.fr/first-impressions-on-rust.html)
+* [Leonard Euler's Solution to the Konigsberg Bridge Problem](https://www.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem)
 
 
 ### 07
