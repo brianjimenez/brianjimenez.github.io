@@ -38,6 +38,12 @@
 * [Angry Linus](https://lore.kernel.org/lkml/20180813214328.GA15137@beast/T/#u)
 * [First impressions on Rust](http://luthaf.fr/first-impressions-on-rust.html)
 * [Leonard Euler's Solution to the Konigsberg Bridge Problem](https://www.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem)
+* [The un-celebrity president](https://www.washingtonpost.com/news/national/wp/2018/08/17/feature/the-un-celebrity-president-jimmy-carter-shuns-riches-lives-modestly-in-his-georgia-hometown/?noredirect=on&utm_term=.145b19f197b0)
+* [The Border Between Belgium & The Netherlands at Baarle-Hertog/Baarle-Nassau](https://brilliantmaps.com/baarle-hertogbaarle-nassau/)
+* [Dick at your door](https://www.failory.com/mistakes/dick-at-your-door)
+* [This Ultrahot Exoplanet Has Metallic Skies](https://www.scientificamerican.com/article/this-ultrahot-exoplanet-has-metallic-skies/)
+* [The secret to ant efficiency is idleness](https://www.nytimes.com/2018/08/16/science/ants-worker-idleness.html)
+
 
 
 ### 07
