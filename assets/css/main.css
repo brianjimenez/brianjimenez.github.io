@@ -2268,8 +2268,8 @@ input, select, textarea {
 			}
 
 			#main > section.sep {
-				background-color: #fff;
-				padding: 0;
+				background: #fff;
+				padding: 1.5em 0;
 			}
 
 
