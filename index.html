@@ -1,163 +1,108 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brian Jiménez-García | Researcher & Software Engineer</title>
+<meta name="description" content="Brian Jiménez-García is a Principal Machine Learning Scientist for Protein Design at Sanofi. Researcher and software engineer based in Barcelona.">
+<meta name="theme-color" content="#070b14">
+<meta property="og:title" content="Brian Jiménez-García">
+<meta property="og:description" content="Principal Machine Learning Scientist for Protein Design at Sanofi. Researcher and software engineer.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bjimenezgarcia.com/">
+<meta property="og:image" content="https://bjimenezgarcia.com/images/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Brian Jiménez-García, Principal Machine Learning Scientist for Protein Design, next to a rendering of a folded protein">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="images/avatar.png">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YFYN3FXYB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-8YFYN3FXYB');
+</script>
+<nav><a href="#top">Intro</a><a href="#research">Research</a><a href="#software">Software</a><a href="#about">About</a><a href="blog/">Blog</a></nav>
 
-<html>
-    <head>
-        <title>Brian Jiménez-García | Researcher & Software Engineer</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
-    <body class="is-preload">
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YFYN3FXYB"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-8YFYN3FXYB');
-      </script>
-      <!-- Header -->
-			<div id="header">
-				<div class="top">
-					<!-- Logo -->
-						<div id="avatar">
-							<span class="image avatar128"><img src="images/avatar.png" alt="bjimenezgarcia" /></span>
-						</div>
-						<div id="welcome">
-							<h1 id="title">Brian Jiménez-García</h1>
-							<p>Researcher & Software Engineer</p>
-						</div>
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#research" id="research-link"><span class="icon solid fa-atom">Research</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-code">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-							</ul>
-						</nav>
-				</div>
+<header class="hero" id="top">
+  <canvas id="c" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <p class="eyebrow">Barcelona</p>
+    <h1>Brian<br><span>Jiménez-García</span></h1>
+    <p class="lead">Principal Machine Learning Scientist for Protein Design at <a href="https://www.sanofi.com/en">Sanofi</a>.</p>
+    <p class="sub">Researcher &amp; software engineer.</p>
+    <div class="btns">
+      <a class="btn p" href="https://github.com/brianjimenez">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/brianjimenez">LinkedIn</a>
+    </div>
+  </div>
+</header>
 
-				<div class="bottom">
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://twitter.com/br_jimenez" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://github.com/brianjimenez" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/brianjimenez" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:br.jimenezgarcia@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-				</div>
-			</div>
+<main>
+  <section class="s" id="research"><div class="wrap">
+    <div class="two">
+      <div>
+        <h2><small>Research</small>Proteins that fit together.</h2>
+        <p class="lede">I work where <b>machine learning</b> meets molecular biology: understanding and designing how proteins interact.</p>
+        <div class="grid" style="grid-template-columns:1fr 1fr">
+          <div class="card"><span class="dot"></span><h3>AI</h3><p>Artificial intelligence</p></div>
+          <div class="card"><span class="dot"></span><h3>Bioinformatics</h3><p>Computational biology</p></div>
+          <div class="card"><span class="dot"></span><h3>Docking</h3><p>Macromolecular interactions</p></div>
+          <div class="card"><span class="dot"></span><h3>HPC</h3><p>Scientific software at scale</p></div>
+        </div>
+      </div>
+      <div>
+        <figure class="fold-card">
+          <canvas id="fold" role="img" aria-label="Animation of a designed protein folding from a random coil into a beta-sheet packed with helices"></canvas>
+        </figure>
+        <p class="links"><a href="https://scholar.google.com/citations?user=9e1m3-AAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://orcid.org/0000-0001-7786-2109">ORCID</a> · <a href="https://www.researchgate.net/profile/Brian_Jimenez-Garcia">ResearchGate</a></p>
+      </div>
+    </div>
+  </div></section>
 
-		<!-- Main -->
-			<div id="main">
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+  <section class="s" id="software" style="background:var(--bg2)"><div class="wrap">
+    <h2><small>Software</small>Quality, built in.</h2>
+    <p class="lede" style="max-width:36ch">Best coding practices, agile methodologies and a proud <abbr title="Test-Driven Development">TDD</abbr> developer. I ❤️ Python and Rust.</p>
+    <div class="grid">
+      <a class="card" href="https://github.com/lightdock"><span class="dot"></span><h3>LightDock</h3><p>Macromolecular docking framework · github.com/lightdock</p></a>
+      <a class="card" href="https://github.com/brianjimenez"><span class="dot"></span><h3>Personal projects</h3><p>My GitHub profile · github.com/brianjimenez</p></a>
+    </div>
+  </div></section>
 
-							<header>
-								<h2 class="alt">
-									<span>Hi! I'm <strong>Brian</strong></span>
-								</h2>
-								<p>Principal Machine Learning Scientist for Protein Design at 
-								<a class="info__elevator-link" href="https://www.sanofi.com/en">Sanofi</a></p>
-							</header>
+  <section class="s" id="about"><div class="wrap">
+    <div class="two" style="align-items:start">
+      <div>
+        <h2><small>About</small>The path so far.</h2>
+        <ol class="tl">
+          <li><time>NOW</time><h3>Principal ML Scientist, Protein Design</h3><p><a href="https://www.sanofi.com/en">Sanofi</a></p></li>
+          <li><time>2021 – 2026</time><h3>Senior Scientist, then CTO</h3><p><a href="https://zymvol.com">Zymvol</a>, CTO for the last three years</p></li>
+          <li><time>2018 – 2021</time><h3>Research Software Engineer / Postdoctoral Researcher</h3><p><a href="https://www.bonvinlab.org/">BonvinLab</a></p></li>
+          <li><time>2016 – 2018</time><h3>Postdoctoral researcher</h3><p><a href="https://www.bsc.es">Barcelona Supercomputing Center</a> &amp; <a href="https://inb-elixir.es">INB</a></p></li>
+          <li><time>2010 – 2016</time><h3>PhD in Bioinformatics</h3><p><a href="https://www.bsc.es">BSC</a> &amp; <a href="https://www.ub.edu">Universitat de Barcelona</a>; a year at <a href="https://epfl.ch/">EPFL</a> and a stay at <a href="https://www.nibiohn.go.jp/english/index.html">NIBIOHN</a>, Osaka</p></li>
+          <li><time>2008 – 2010</time><h3>ALBA Synchrotron</h3><p><a href="https://www.cells.es/en">CELLS-ALBA</a>, Barcelona</p></li>
+          <li><time>2008</time><h3>Computer Science</h3><p><a href="http://www.upc.edu/?set_language=en">UPC BarcelonaTech</a></p></li>
+        </ol>
+      </div>
+      <div class="card" style="margin-top:3.2rem"><h3>Teaching</h3><p>Course instructor at the <a href="http://www.uoc.edu">UOC</a>, in the UOC-UB MSc in Bioinformatics and Biostatistics.</p></div>
+    </div>
+  </div></section>
 
-						</div>
-					</section>
+  <section class="s contact" style="background:var(--bg2)"><div class="wrap">
+    <h2>Let’s talk.</h2>
+    <p class="lede">Protein design, docking or scientific software? I’d like to hear from you.</p>
+    <a class="btn p" href="https://www.linkedin.com/in/brianjimenez">Message me on LinkedIn</a>
+    <p class="social"><a href="https://github.com/brianjimenez">GitHub</a> · <a href="https://twitter.com/br_jimenez">Twitter / X</a> · <a href="blog/">Blog</a></p>
+  </div></section>
+</main>
+<footer>&copy; Brian Jiménez-García</footer>
 
-				<!-- Research -->
-					<section id="research" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Research</h2>
-							</header>
-
-							<p>
-								My main interests are artificial intelligence, bioinformatics, macromolecular docking and interactions, scientific software development and high performance computing.
-							</p>
-
-							<p>
-			                    <a href="https://orcid.org/0000-0001-7786-2109" target="_blank" rel="noopener noreferrer" style="vertical-align:top;"><img src="images/orcid_logo.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0001-7786-2109</a>
-			                    <br>
-			                    <a href="https://www.researchgate.net/profile/Brian_Jimenez-Garcia" target="_blank" rel="noopener noreferrer" style="vertical-align:top;"><img src="images/rg_logo.jpg" style="width:1em;margin-right:.5em;margin-top:.5em;" alt="ResearchGate Icon">https://www.researchgate.net/profile/Brian_Jimenez-Garcia</a>
-			                    <br>
-			                    <a href="https://scholar.google.com/citations?user=9e1m3-AAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="vertical-align:top;"><img src="images/gs_logo.png" style="width:1em;margin-right:.5em;margin-top:.5em;" alt="Google Scholar Icon">Google Scholar Profile</a>
-                			</p>
-
-						</div>
-					</section>
-
-					<section id="membrane" class="sep">
-						<div class="container">
-							<img src="images/membrane.png" alt="Membrane" />
-						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="three">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>
-								Passionate about <strong style="color: #0176bc;">building quality into scientific software</strong>, best coding practices,<br> agile methodologies and a proud <abbr title="Test-Driven Development">TDD</abbr> developer.
-								<br>
-								I ❤️ Python and Rust.
-							</p>
-
-							<p>
-								<a href="https://github.com/brianjimenez" class="icon brands fa-github"> github.com/brianjimenez</a>
-								<br>
-								<a href="https://github.com/lightdock" class="icon brands fa-github"> github.com/lightdock</a>
-							</p>
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="four">
-						<div class="container">
-
-							<header>
-								<h2>About Me</h2>
-							</header>
-
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-
-							<p>
-				                I obtained my degree in Computer Sciences from <a href="http://www.upc.edu/?set_language=en" target="_blank">UPC BarcelonaTech</a> in 2008, worked in the private sector until 2010, date in which I started my PhD in Bioinformatics (<a href="https://www.bsc.es" target="_blank">Barcelona Supercomputing Center</a>, <a href="https://www.ub.edu" target="_blank">Universitat de Barcelona</a>),
-				                defending my thesis in 2016 with a final grade of <em>Cum Laude</em>. During my studies and research, I had the opportunity to specialize one year at the <a href="https://epfl.ch/" target="_blank">EPFL</a> (Lausanne, Switzerland) in swarm intelligence and biocomputing, and becoming a visitor student at
-				                the <a href="https://www.nibiohn.go.jp/english/index.html" target="_blank">National Institute of Biomedical Innovation</a> in Osaka, Japan. From 2018 to 2021 I was a postdoctoral researcher at <a href="https://www.bonvinlab.org/" target="_blank">BonvinLab</a>. From 2021 to 2026 I worked at <a href="https://zymvol.com" target="_blank">Zymvol</a>, first as a senior scientist, and in the last three years as CTO of the company. I am also a course instructor at the <a href="http://www.uoc.edu" target="_blank">UOC</a> (Universitat Oberta de Catalunya) in the UOC-UB MSc in Bioinformatics and Biostatistics.
-				                <br><br>
-				                I am currently established in <a href="https://goo.gl/maps/69JKgsDaqDH1vexk9" target="_blank">Barcelona</a>.
-							</p>
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Brian Jiménez-García.</li><li>Theme based in <a href="http://html5up.net">Prologue HTML5 UP template</a></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<script src="assets/js/protein.js"></script>
+<script src="assets/js/hero.js"></script>
+<script src="assets/js/fold.js"></script>
+</body>
 </html>
