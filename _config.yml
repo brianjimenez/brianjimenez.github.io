@@ -1,0 +1,20 @@
+title: Brian Jiménez-García
+description: Notes on protein design, machine learning and scientific software.
+url: https://bjimenezgarcia.com
+timezone: Europe/Madrid
+
+# Posts live in _posts/YYYY-MM-DD-slug.md and are published at /blog/slug/
+permalink: /blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - BLOG.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

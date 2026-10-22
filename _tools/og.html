@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+  Renders the 1200x630 social-preview image (images/og.png) with the same protein renderer as the site.
+  Regenerate with headless Chrome (run from the repo root):
+
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu \
+      --hide-scrollbars --force-device-scale-factor=1 --window-size=1200,630 \
+      --screenshot=images/og.png "file://$PWD/_tools/og.html"
+
+  Folders starting with "_" are not published by GitHub Pages.
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<style>html, body { margin:0; background:#070b14; } canvas { display:block; width:1200px; height:630px; }</style>
+</head>
+<body>
+<canvas id="c" width="1200" height="630"></canvas>
+<script src="../assets/js/protein.js"></script>
+<script>
+const { add, sub, mul, rotAxis, rotY, helix, strand, chain, recenter, mix, sprite, projector, segments, paint } = Protein;
+const cv = document.getElementById('c'), ctx = cv.getContext('2d'), W = 1200, H = 630;
+const SANS = '-apple-system, "SF Pro Display", "Helvetica Neue", Arial, sans-serif';
+
+// Same designed fold as the Research animation (assets/js/fold.js).
+const folded = recenter(chain([
+  strand([0, -10, -7.2], [0, 1, 0], 7, [1, 0, 0]), strand([0, 10, -2.4], [0, -1, 0], 7, [1, 0, 0]),
+  strand([0, -10, 2.4], [0, 1, 0], 7, [1, 0, 0]), strand([0, 10, 7.2], [0, -1, 0], 7, [1, 0, 0]),
+  helix([9, -11, 4], [0, 1, 0], 15), helix([9, 12, -4], [0, -1, 0], 15),
+  helix([-9, -11, 4], [0, 1, 0], 15)
+]));
+const N = folded.length;
+const COL = t => t < .5 ? mix([255, 196, 104], [252, 238, 210], t * 2) : mix([252, 238, 210], [64, 214, 204], (t - .5) * 2);
+
+// background
+ctx.fillStyle = '#070b14'; ctx.fillRect(0, 0, W, H);
+let g = ctx.createRadialGradient(930, 310, 0, 930, 310, 470);
+g.addColorStop(0, 'rgba(79,216,207,.16)'); g.addColorStop(.55, 'rgba(255,196,107,.05)'); g.addColorStop(1, 'rgba(7,11,20,0)');
+ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+g = ctx.createLinearGradient(0, 0, W, 0);
+g.addColorStop(0, 'rgba(7,11,20,.9)'); g.addColorStop(.5, 'rgba(7,11,20,0)');
+ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+
+// protein
+const SPIN = 2.35, TILT = .35, S = 8.4, cx = 935, cy = 318;
+const cam = folded.map(r => rotY(rotAxis(r.p, [1, 0, 0], TILT), SPIN));
+const proj = projector(cx, cy, S);
+const spr = [sprite('255,206,130'), sprite('90,225,215')];
+ctx.globalCompositeOperation = 'lighter'; ctx.globalAlpha = .09;
+cam.forEach((q, i) => { const [x, y, f] = proj(q), r = 6.4 * S * f; ctx.drawImage(spr[i / N < .5 ? 0 : 1], x - r, y - r, 2 * r, 2 * r); });
+ctx.globalAlpha = 1; ctx.globalCompositeOperation = 'source-over';
+paint(ctx, segments(cam, folded, COL, proj, S));
+
+// text
+ctx.textBaseline = 'alphabetic';
+ctx.font = `500 20px ${SANS}`; ctx.fillStyle = '#4fd8cf';
+if ('letterSpacing' in ctx) ctx.letterSpacing = '5px';
+ctx.fillText('BARCELONA', 80, 190);
+if ('letterSpacing' in ctx) ctx.letterSpacing = '-2px';
+ctx.font = `700 86px ${SANS}`; ctx.fillStyle = '#e8edf7';
+ctx.fillText('Brian', 80, 285);
+const grad = ctx.createLinearGradient(80, 0, 610, 0); grad.addColorStop(0, '#ffc46b'); grad.addColorStop(1, '#4fd8cf');
+ctx.fillStyle = grad; ctx.fillText('Jiménez-García', 80, 375);
+if ('letterSpacing' in ctx) ctx.letterSpacing = '0px';
+ctx.fillStyle = '#e8edf7'; ctx.font = `400 29px ${SANS}`;
+ctx.fillText('Principal Machine Learning Scientist', 80, 440);
+ctx.fillText('for Protein Design at Sanofi', 80, 479);
+ctx.fillStyle = '#93a0b8'; ctx.font = `400 23px ${SANS}`;
+ctx.fillText('Researcher & software engineer', 80, 530);
+ctx.fillStyle = '#4fd8cf'; ctx.font = `500 22px ${SANS}`; ctx.textAlign = 'right';
+ctx.fillText('bjimenezgarcia.com', W - 60, H - 46);
+</script>
+</body>
+</html>
